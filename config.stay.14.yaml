@@ -1,0 +1,21 @@
+base_url: https://qnyz.shyouth.net/qnyzApi
+check_availability: true
+concurrency: 2
+filters:
+  apply_scope: personal
+  date_from: '2026-11-14'
+  date_to: '2026-11-24'
+  districts:
+  - 长宁区
+  min_apply_number: 1
+  min_house_count: 0
+  name: ''
+  only_stations:
+  - 汉庭优佳上海中山公园延安路酒店青年驿站
+  - 璟辰公寓青年驿站
+  user_type: 2
+log_file: ''
+notify:
+  type: bark
+  url: ''
+verify_ssl: true
